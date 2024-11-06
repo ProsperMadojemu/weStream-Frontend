@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './Signup.css';
+import './SignUp.css';
 import GoogleIcon from '@mui/icons-material/Google';
 import { Divider } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-const Signup = () => {
+const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState({});
@@ -94,4 +94,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
