@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('../../assets/gradientBlur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    background-size: cover;
+    color: var(--text);
+    min-height: 100vh;
+}
+
+.header-left {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center;
+}
+
+.header-image {
+    width: 180px;
+    border-radius: 15px;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px 5px #433D8B;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.header-left img {
+    object-fit: cover;
+    object-position: center;
+    width: 290%;
+}
+
+.header-image:first-child {
+    transform: rotate(350deg);
+    z-index: 0;
+}
+
+.header-image:nth-child(2){
+    z-index: 1;
+}
+
+.header-image:nth-child(3){
+    transform: rotate(10deg);
+    z-index: 0;
+}
+
+.header-image:hover {
+    transform: translate(-10px);
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    height: 100%;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.header-subTitle {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+
+@media (max-width: 1020px) {
+    .header-image {
+        width: 180px;
+        border-radius: 15px;
+        height: 300px;
+    }
+    .header {
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+    }
+    .header-right {
+        align-items: center;
+    }
+}
+
+@media (max-width: 725px) {
+    .header-image {
+        width: 100%;
+        border-radius: 15px;
+        height: 150%;
+    }
+}

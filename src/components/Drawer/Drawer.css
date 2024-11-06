@@ -1,0 +1,40 @@
+.drawer {
+    width: 250px;
+    background: var(--dark);
+    padding: 0px 10px;
+    height: 100%;
+    color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.drawer-title {
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+.drawer-bottom {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.drawer-bottom .signIn {
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.drawer-bottom .signUp {
+    background: var(--lightish);
+    padding: 7px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.drawer-bottom .signUp:hover,
+.drawer-bottom .signIn:hover {
+    opacity: .8;
+}

@@ -1,0 +1,85 @@
+.pricing {
+    color: var(--text);
+    
+    padding: 8rem 2rem 2rem 2rem;
+    text-align: center;
+    background: var(--dark);
+}
+
+.pricing-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--light);
+}
+
+.pricing-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: var(--darkish);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    max-width: 90%;
+    color: var(--text);
+    text-align: left;
+}
+
+.pricing-card h2 {
+    font-size: 1.5rem;
+    color: var(--light);
+}
+
+.price {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    color: var(--lightish);
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--light);
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.features li {
+    margin: 0.5rem 0;
+    color: var(--text);
+}
+
+.cta-button {
+    background-color: var(--lightish);
+    border: none;
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--light);
+}
+
+.basic {
+    background: linear-gradient(to bottom, var(--darkish), var(--dark) 80%);
+}
+
+.pro {
+    background: linear-gradient(to bottom, var(--lightish), var(--darkish) 80%);
+}
+
+.enterprise {
+    background: linear-gradient(to bottom, var(--light), var(--lightish) 80%);
+}

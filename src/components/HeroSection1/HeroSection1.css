@@ -1,0 +1,90 @@
+/* src/components/HeroSection1/HeroSection1.css */
+
+:root {
+    --dark: #17153B;
+    --darkish: #2E236C;
+    --lightish: #433D8B;
+    --light: #C8ACD6;
+    --text: #F0F0F0;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 55px;
+    background: linear-gradient(135deg, var(--darkish), var(--dark));
+    color: var(--text);
+}
+
+.hero-content {
+    max-width: 50%;
+    padding-right: 2rem;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--light);
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    margin: 1rem 0 2rem;
+    color: var(--lightish);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button {
+    background-color: var(--lightish);
+    color: var(--text);
+}
+
+.primary-button:hover {
+    background-color: var(--light);
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: var(--lightish);
+    border: 1px solid var(--lightish);
+}
+
+.secondary-button:hover {
+    color: var(--text);
+    border-color: var(--light);
+}
+
+.hero_image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 785px) {
+    .hero-section{
+        flex-direction: column;
+    }
+.hero_image {
+    display: none;
+}
+    .hero-content {
+        max-width: 90%;
+    }
+}
