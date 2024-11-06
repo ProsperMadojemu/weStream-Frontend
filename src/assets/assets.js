@@ -3,8 +3,9 @@ import gradientBlr from './gradientBlr.svg'
 import Image1 from './Image1.jpg'
 import Image2 from './Image2.jpg'
 import Image3 from './Image3.jpg'
-import Image5 from './Image5.jpg'
-import Image6 from './Image6.jpg'
+import image4 from './image4.jpg'
+import image5 from './image5.jpg'
+import image6 from './image6.jpg'
 
 export const assets = {
     gradientBlur,
@@ -12,6 +13,7 @@ export const assets = {
     Image1,
     Image2,
     Image3,
-    Image5,
-    Image6,
+    image4,
+    image5,
+    image6,
 } 

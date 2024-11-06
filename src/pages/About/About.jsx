@@ -27,9 +27,9 @@ const About = () => {
         <div className="audience_img">
           <img src={assets.Image3} alt="Our Audience" className="section-image" />
           <div className="images grid-col-2-span-row-1">
-            {/* <img src={assets.Image5} alt="Our Audience" className='section--image'/> */}
+            {/* <img src={assets.image5} alt="Our Audience" className='section--image'/> */}
           </div>
-          <img src={assets.Image6} alt="Our Audience" className="section-image" />
+          <img src={assets.image6} alt="Our Audience" className="section-image" />
           <img src={assets.Image1} alt="Our Audience" className="section-image" />
           <img src={assets.Image2} alt="Our Audience" className="section-image" />
         </div>
