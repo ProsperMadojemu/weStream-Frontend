@@ -1,8 +1,7 @@
-.login {
+.Register {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    padding-top: 9rem;
     gap: 4rem;
     align-items: center;
     justify-content: center;
@@ -106,4 +105,11 @@
 .agreement {
     max-width: 30%;
     text-align: center;
+}
+
+@media (max-width: 785px) {
+    .agreement {
+        max-width: 100%;
+    }
+    
 }

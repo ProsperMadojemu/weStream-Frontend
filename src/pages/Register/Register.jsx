@@ -39,10 +39,10 @@ const Register = () => {
   };
 
   return (
-    <div className="login">
+    <div className="Register">
       <div className="form-title">
         <h2>Westream</h2>
-        <p>Sign in to your account</p>
+        <p>Create your account</p>
       </div>
       <form onSubmit={handleSubmit} className="form-container">
         <div className="form-signin">
