@@ -68,16 +68,16 @@ a{
   }
 
   .hero-section {
-    padding: 3rem 35px;
+    padding: 3rem 15px;
   }
   
 
   .header, .footer {
-    padding: 0px 30px;
+    padding: 0px 10px;
   }
 
   .login, .Register  {
-    padding: 9rem 30px 0px 30px;
+    padding: 9rem 10px 0px 10px;
   }
 }
 
