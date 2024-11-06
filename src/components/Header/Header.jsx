@@ -7,13 +7,13 @@ const Header = () => {
     <div className='header'>
       <div className="header-left">
         <div className="header-image">
-          <img src={assets.image3} alt="" />
+          <img src={assets.Image3} alt="" />
         </div>
         <div className="header-image">
-          <img src={assets.image2} alt="" />
+          <img src={assets.Image2} alt="" />
         </div>
         <div className="header-image">
-          <img src={assets.image1} alt="" />
+          <img src={assets.Image1} alt="" />
         </div>
       </div>
       <div className="header-right">
