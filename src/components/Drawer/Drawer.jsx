@@ -14,15 +14,15 @@ const Drawer = ({ open, setOpen }) => {
                     WeStream
                 </div>
                 <List>
-                    <ListItemButton button component={Link} to="/" onClick={() => setOpen(false)}>
+                    <ListItemButton  component={Link} to="/" onClick={() => setOpen(false)}>
                         <ListItemIcon><HomeIcon style={{ color: "#C8ACD6" }} /></ListItemIcon>
                         <ListItemText primary="Home" />
                     </ListItemButton>
-                    <ListItemButton button component={Link} to="/about" onClick={() => setOpen(false)}>
+                    <ListItemButton  component={Link} to="/about" onClick={() => setOpen(false)}>
                         <ListItemIcon><InfoIcon style={{ color: "#C8ACD6" }} /></ListItemIcon>
                         <ListItemText primary="About" />
                     </ListItemButton>
-                    <ListItemButton button component={Link} to="/pricing" onClick={() => setOpen(false)}>
+                    <ListItemButton  component={Link} to="/pricing" onClick={() => setOpen(false)}>
                         <ListItemIcon><AttachMoneyIcon style={{ color: "#C8ACD6" }} /></ListItemIcon>
                         <ListItemText primary="Pricing" />
                     </ListItemButton>
