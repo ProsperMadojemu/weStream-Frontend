@@ -30,7 +30,7 @@ const About = () => {
             {/* <img src={assets.Image5} alt="Our Audience" className='section--image'/> */}
           </div>
           <img src={assets.Image6} alt="Our Audience" className="section-image" />
-          <img src={assets.Image4} alt="Our Audience" className="section-image" />
+          <img src={assets.Image1} alt="Our Audience" className="section-image" />
           <img src={assets.Image2} alt="Our Audience" className="section-image" />
         </div>
       </section>
