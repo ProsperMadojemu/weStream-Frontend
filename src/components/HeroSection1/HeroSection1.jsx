@@ -9,8 +9,8 @@ const HeroSection1 = () => {
         <h1 className="hero-title">Stream Like a Pro with Westream</h1>
         <p className="hero-subtitle">Reach a wider audience, effortlessly. Start streaming today with ease and flexibility.</p>
         <div className="hero-buttons">
-          <Link to="/get-started" className="hero-button primary-button">Get Started</Link>
-          <Link to="/learn-more" className="hero-button secondary-button">Learn More</Link>
+          <Link to="/register" className="hero-button primary-button">Get Started</Link>
+          <Link to="/" className="hero-button secondary-button">Learn More</Link>
         </div>
       </div>
       <div className="hero-image">

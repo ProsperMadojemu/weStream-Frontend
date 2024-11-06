@@ -77,7 +77,7 @@ const Register = () => {
 
         <div className="option">
           Already have an account?{' '}
-          <Link to="/register" className="register-link">Login</Link>
+          <Link to="/login" className="register-link">Login</Link>
         </div>
         <button
           type="submit"

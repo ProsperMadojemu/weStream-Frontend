@@ -5,9 +5,9 @@
 }
 
 .section {
-    padding: 0 60px;
     /* background-color: var(--darkish); */
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); */
+    gap: 1rem;
 }
 
 .section h2 {
@@ -133,7 +133,9 @@
 
 .section.contact {
     gap: 10px;
-    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
 }
 
 @media (max-width: 1020px) {
@@ -155,9 +157,19 @@
     }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 785px) {
     .section.purpose {
         padding-top: 10rem;
+        align-items: flex-start;
+        text-align: left;
+
+    }
+    .section.features {
+        align-items: flex-start;
+    }
+    .section h2 {
+        text-align: left;
+        font-size: 2rem;
     }
     .section p {
         max-width:100%;
@@ -169,4 +181,9 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
+    .section.contact {
+        text-align: left;
+        align-items: flex-start;
+    }
+
 }
